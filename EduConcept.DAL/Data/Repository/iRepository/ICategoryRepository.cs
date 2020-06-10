@@ -10,6 +10,9 @@ namespace EduConcept.DAL.Data.Repository.iRepository
     {
         IEnumerable<SelectListItem> GetCategoryListForDropDown();
         IEnumerable<Category> GetAllCategoryList();
-        void Update(Category Category);
+        void Update(Category Category) ;
+
+
+
     }
 }
